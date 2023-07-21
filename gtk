@@ -1,0 +1,18 @@
+/*
+ * Copyright (C) 2021 Purism SPC
+ *
+ * SPDX-License-Identifier: LGPL-2.1-or-later
+ *
+ * Author: Alexander Mikhaylenko <alexander.mikhaylenko@puri.sm>
+ */
+
+#include "config.h"
+#include <glib/gi18n-lib.h>
+
+#include "hdy-style-manager.h"
+
+#include "hdy-settings-private.h"
+#include <gtk/gtk.h>
+
+#define SWITCH_DURATION 250
+
